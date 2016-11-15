@@ -123,14 +123,17 @@ class SiteController extends Controller
             $model->attributes = Yii::$app->request->post('Signup');
             if($model->validate() && $model->signup())
             {
-               return $this->goHome();
+               return $this->redirect('aftersignup');
             }
         }
         return $this->render('signup', [
             'model'=>$model
         ]);
     }
-    
+    public function actionAftersignup()
+    {
+        return $this->render('aftersignup');
+    }
     public function actionPost()
     {
         $error = '';

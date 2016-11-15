@@ -141,7 +141,7 @@ div.well > div >ul li {
     width: 30%; /* Ширина отдельного блока */
 }
 p.pull-left{
-   padding-left: 100px; 
+   padding-left: 50px; 
 }
 #PostCreate_service_ids > div{
     display: inline-block;

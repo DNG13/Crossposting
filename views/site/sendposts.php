@@ -37,8 +37,8 @@
     </div>
     <div>
         <ul class="nav nav-pills">           
-            <li><a href="<?= Yii::$app->urlManager->createUrl(['site/servers']) ?>">Додати соц мережу.</a></li>
-            <li><a href="<?= Yii::$app->urlManager->createUrl(['site/post']) ?>">Написати новий пост.</a></li>
+            <li><a href="<?= Yii::$app->urlManager->createUrl(['site/servers']) ?>">Додати соц мережу</a></li>
+            <li><a href="<?= Yii::$app->urlManager->createUrl(['site/post']) ?>">Написати новий пост</a></li>
         </ul>
     </div> 
 </div>

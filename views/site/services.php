@@ -29,9 +29,9 @@
                 <li class="Facebook">
                     <?php if ($fbtoken == null): ?>
                         <br><a href="<?= 0//Yii::$app->urlManager->createUrl(['site/fb']) ?>">
-                        <img src="/project/web/images/icons/facebook.png" alt="facebook"/>Twitter</a>
+                        <img src="/project/web/images/icons/facebook.png" alt="facebook"/>Facebook</a>
                     <?php else: ?>                    
-                        Додано<img src="/project/web/images/icons/facebook.png" alt="facebook"/>Twitter
+                        Додано<img src="/project/web/images/icons/facebook.png" alt="facebook"/>Facebook
                     <?php endif; ?>                       
                 </li>
                 <li class="Odnoklassniki">
